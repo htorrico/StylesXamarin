@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StylesXamarin.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="lblRedStyle" TargetType="Label" >
+                <Setter Property="BackgroundColor" Value="Red" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="lblBlueStyle" TargetType="Label" >
+                <Setter Property="BackgroundColor" Value="Blue" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="FontSize" Value="Large" />
+            </Style>
+
+            <Style TargetType="Label" >
+                <Setter Property="BackgroundColor" Value="Green" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="FontSize" Value="Large" />
+            </Style>
+            
+            <Style TargetType="Entry">
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+                <Setter Property="BackgroundColor" Value="Yellow"/>
+                <Setter Property="FontAttributes" Value="Italic"/>
+                <Setter Property="TextColor" Value="Blue"/>
+            </Style>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Label Text="Hola Mundo" Style="{StaticResource lblRedStyle}" ></Label>
+        <Label Text="Hola Tecsup" Style="{StaticResource lblRedStyle}" ></Label>
+        <Label Text="Hola Perú" Style="{StaticResource lblBlueStyle}"></Label>
+        <Label Text="Prueba implícita"></Label>
+
+        <Entry Text="Mi primer Entry"></Entry>
+        <Entry Text="Mi segundo Entry"></Entry>
+        <Entry Text="Mi tercer Entry"></Entry>
+        <Entry Text="Mi cuarto Entry"></Entry>
+    </StackLayout>
+
+</ContentPage>
