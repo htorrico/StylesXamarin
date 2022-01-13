@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:StylesXamarin"
              x:Class="StylesXamarin.Page1">
+  
     <ContentPage.Content>
+       
         <StackLayout>
             <Entry Text="Mi primer Entry" ></Entry>
             <Entry Text="Mi segundo Entry"></Entry>

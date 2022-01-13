@@ -10,7 +10,7 @@ namespace StylesXamarin
         {
             InitializeComponent();
 
-            MainPage = new Page1();
+            MainPage = new Page3();
         }
 
         protected override void OnStart()

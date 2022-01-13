@@ -9,6 +9,8 @@
                 <Setter Property="TextColor" Value="White" />
                 <Setter Property="HorizontalOptions" Value="Center"/>
             </Style>
+            
+            
             <Style x:Key="lblBlueStyle" TargetType="Label" >
                 <Setter Property="BackgroundColor" Value="Blue" />
                 <Setter Property="TextColor" Value="White" />
