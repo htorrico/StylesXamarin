@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:StylesXamarin"
+             x:Class="StylesXamarin.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Text="Mi primer Entry" ></Entry>
+            <Entry Text="Mi segundo Entry"></Entry>
+            <Entry Text="Mi tercer Entry"></Entry>
+            <Entry Text="Mi cuarto Entry"></Entry>
+            <Entry Text="Mi quinto Entry"></Entry>
+            <local:CustomEntry Text="6to Entry"></local:CustomEntry>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

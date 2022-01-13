@@ -22,14 +22,7 @@
                 <Setter Property="HorizontalOptions" Value="Center"/>
                 <Setter Property="FontSize" Value="Large" />
             </Style>
-            
-            <Style TargetType="Entry">
-                <Setter Property="HorizontalOptions" Value="Fill"/>
-                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
-                <Setter Property="BackgroundColor" Value="Yellow"/>
-                <Setter Property="FontAttributes" Value="Italic"/>
-                <Setter Property="TextColor" Value="Blue"/>
-            </Style>
+          
             
         </ResourceDictionary>
     </ContentPage.Resources>
